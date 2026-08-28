@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"
+  publish = "out"  # ← Mudar de .next para out
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
