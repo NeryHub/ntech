@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // ← Descomente esta linha!
+  output: 'standalone',
   
   trailingSlash: true,
   
@@ -11,10 +11,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  
-  // Remova estas linhas (não são suportadas no Next.js 16)
-  // swcMinify: true,
-  // poweredByHeader: false,
   
   experimental: {
     optimizeCss: true,
