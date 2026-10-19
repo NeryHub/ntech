@@ -33,7 +33,7 @@ export function Contact() {
   const phoneNumber = "+351939388057"
   const phoneDisplay = "+351 939 388 057"
   const whatsappNumber = "351939388057"
-  const email = "neriasg24@gmail.com"
+  const email = "geral@andradepro.pt"
   const morada = "Praceta Vasco da Gama, Nº 15 RC Esq."
   const codigoPostal = "2600-860 São João dos Montes"
   const horario = "Segunda a Sexta: 9h-20h"
