@@ -1,6 +1,8 @@
 // app/sitemap.ts
 import type { MetadataRoute } from 'next'
 
+export const dynamic = 'force-static'
+
 const SITE_URL = 'https://andradepro.pt'
 
 // Adiciona aqui cada nova página de zona que criares.
