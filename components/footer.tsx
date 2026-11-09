@@ -62,7 +62,7 @@ export function Footer() {
                 <Hammer className="w-5 h-5 text-[#1A3C40]" />
               </div>
               <div>
-                <span className="font-bold text-lg text-white">Andrade Renova</span>
+                <span className="font-bold text-lg text-white">Andrade Remodelações</span>
                 <p className="text-xs text-white/60">Remodelações Gerais</p>
               </div>
             </div>
@@ -182,7 +182,7 @@ export function Footer() {
         {/* Bottom */}
         <div className="mt-10 pt-6 border-t border-white/15 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="text-center sm:text-left text-sm text-white/60">
-            © {currentYear} Andrade Renova — Remodelações Gerais
+            © {currentYear} Andrade Remodelações — Remodelações Gerais
             <span className="hidden sm:inline mx-2">•</span>
             <span className="text-xs text-white/40">
               Equipa com experiência internacional (Suíça)
@@ -219,7 +219,7 @@ export function Footer() {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "ProfessionalService",
-              "name": "Andrade Renova",
+              "name": "Andrade Remodelações",
               "description": "Remodelações gerais, cozinhas, casas de banho, pintura e instalação elétrica certificada. Equipa com experiência internacional (Suíça).",
               "telephone": "+351939388057",
               "email": "neriasg24@gmail.com",
