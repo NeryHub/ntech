@@ -21,6 +21,11 @@ const faqs = [
     icon: ShieldCheck
   },
   {
+    pergunta: "São autorizados a fazer obras particulares?",
+    resposta: "Sim. Estamos registados no IMPIC como Empreiteiro de Obras Particulares com o número 162316 - PAR que poderá ser verificado na página de consulta da respetiva entidade.",
+    icon: ShieldCheck
+  },
+  {
     pergunta: "Fazem a limpeza no final da obra?",
     resposta: "Sim. Entregamos o espaço pronto a usar. A limpeza final está incluída no serviço. Você só entra e vive."
   },
