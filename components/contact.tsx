@@ -29,7 +29,7 @@ export function Contact() {
   const formRef = useRef<HTMLFormElement>(null)
   const nameInputRef = useRef<HTMLInputElement>(null)
 
-  // Dados reais da Andrade Renova
+  // Dados reais da Andrade Remodelações
   const phoneNumber = "+351939388057"
   const phoneDisplay = "+351 939 388 057"
   const whatsappNumber = "351939388057"
