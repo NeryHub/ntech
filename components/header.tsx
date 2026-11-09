@@ -9,7 +9,7 @@ const navLinks = [
   { href: "#inicio", label: "Início", ariaLabel: "Ir para o início" },
   { href: "#servicos", label: "Serviços", ariaLabel: "Ver serviços" },
   { href: "#projetos", label: "Projetos", ariaLabel: "Ver projetos" },
-  { href: "#sobre", label: "Sobre Nós", ariaLabel: "Sobre a Andrade Renova" },
+  { href: "#sobre", label: "Sobre Nós", ariaLabel: "Sobre a Andrade Remodelações" },
   { href: "#contato", label: "Contacto", ariaLabel: "Entrar em contacto" },
 ]
 
@@ -112,11 +112,11 @@ export function Header() {
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
-          {/* Logo - Andrade Renova */}
+          {/* Logo - Andrade Remodelações */}
           <Link 
             href="#inicio"
             className="flex items-center gap-2.5 hover:opacity-80 transition-opacity group"
-            aria-label="Andrade Renova - Voltar ao início"
+            aria-label="Andrade Remodelações - Voltar ao início"
             onClick={(e) => {
               e.preventDefault()
               handleNavClick("#inicio")
@@ -127,7 +127,7 @@ export function Header() {
             </div>
             <div className="leading-tight">
               <span className="font-bold text-lg text-[#1A3C40] block">
-                Andrade Renova
+                Andrade Remodelações
               </span>
               <span className="text-xs text-gray-500 block">
                 Remodelações Gerais
