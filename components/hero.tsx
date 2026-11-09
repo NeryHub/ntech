@@ -12,7 +12,7 @@ export function Hero() {
       <div className="absolute inset-0">
         <Image
           src="/images/optimized/hero-bg.webp" // SUBSTITUIR por foto real de uma obra vossa concluída
-          alt="Cozinha renovada pela Andrade Renova em Lisboa"
+          alt="Cozinha renovada pela Andrade Remodelações em Lisboa"
           fill
           className="object-cover opacity-40"
           priority
@@ -58,7 +58,7 @@ export function Hero() {
 
           {/* Description - O que fazemos + resultado para o cliente */}
           <p className="mt-6 text-lg text-white/80 max-w-xl leading-relaxed">
-            Somos a <strong className="text-white">Andrade Renova</strong>. 
+            Somos a <strong className="text-white">Andrade Remodelações</strong>. 
             Fazemos cozinhas, casas de banho, pintura e instalação elétrica 
             certificada. Você acompanha tudo, mas{' '}
             <span className="text-[#E8A838] font-semibold">não se preocupa com nada</span>.
@@ -83,7 +83,7 @@ export function Hero() {
               className="h-14 px-8 text-base font-semibold bg-transparent border-2 border-white/30 text-white hover:bg-white/10 hover:text-white hover:border-white/50 transition-all"
             >
               <Link 
-                href="https://wa.me/351939388057?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Andrade%20Renova%20e%20gostaria%20de%20combinar%20uma%20visita%20para%20or%C3%A7amento%20gratuito."
+                href="https://wa.me/351939388057?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Andrade%20Remodelações%20e%20gostaria%20de%20combinar%20uma%20visita%20para%20or%C3%A7amento%20gratuito."
                 target="_blank"
                 rel="noopener noreferrer"
               >
