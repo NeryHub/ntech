@@ -53,14 +53,14 @@ export function About() {
               id="sobre-title"
               className="text-3xl sm:text-4xl font-bold tracking-tight text-[#1A3C40]"
             >
-              Somos a Andrade Renova.
+              Somos a Andrade Remodelações.
               <br />
               E temos orgulho no que fazemos.
             </h2>
 
             <div className="mt-6 space-y-4 text-gray-600 leading-relaxed text-lg">
               <p>
-                A Andrade Renova nasceu de uma decisão simples:{' '}
+                A Andrade Remodelações nasceu de uma decisão simples:{' '}
                 <strong className="text-[#1A3C40]">juntar a experiência que ganhámos 
                 a trabalhar em grandes empresas de construção — na Suíça e em Portugal — 
                 e trazer esse rigor para o cliente de remodelações.</strong>
@@ -117,7 +117,7 @@ export function About() {
 
               <div className="relative">
                 <h3 className="text-xl font-bold text-white mb-4">
-                  Porquê escolher a Andrade Renova?
+                  Porquê escolher a Andrade Remodelações?
                 </h3>
                 
                 <ul className="space-y-3">
@@ -173,7 +173,7 @@ export function About() {
                 <Button 
                   variant="outline"
                   className="border-[#1A3C40]/20 text-[#1A3C40] hover:bg-[#1A3C40]/5 font-semibold"
-                  onClick={() => window.open("https://wa.me/351939388057?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Andrade%20Renova.", "_blank")}
+                  onClick={() => window.open("https://wa.me/351939388057?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Andrade%20Remodelações.", "_blank")}
                 >
                   <MessageCircle className="w-4 h-4 mr-2" />
                   WhatsApp
